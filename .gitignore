@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Heavy Vision-Language Model weights (>100MB)
+*.gguf
+models/*.gguf
+
+# Python caches
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs & temp files
+logs/
+temp/
+data/
+camera_profiles/
+*.mp4
+*.avi
+*.log
+
+# Databases & local checkpoints
+*.db
+*.sqlite3
+
+# Explicitly keep lightweight YOLO models (~5-7MB each, safe for GitHub)
+!*.pt

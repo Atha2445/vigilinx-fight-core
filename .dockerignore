@@ -1,0 +1,14 @@
+# .dockerignore
+# Tells Docker to skip these when building - keeps the image clean
+# and avoids accidentally copying your local venv (which is huge and
+# specific to YOUR machine, not needed inside the container).
+
+venv/
+__pycache__/
+*.pyc
+.git/
+logs/
+data/
+camera_profiles/
+*.mp4
+*.avi
